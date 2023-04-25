@@ -1,0 +1,15 @@
+name: myenv
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - matplotlib
+  - tensorflow
+  - scikit-learn
+  - pandas
+  - ipykernel
+  - tqdm
+  - pip
+  - pip:
+    - pretty_midi
